@@ -1,38 +1,39 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
-    char op;
     double num1, num2;
-
+    char Operator;
+    
     cout << "Enter operator either + or - or * or /: ";
-    cin >> op;
+    cin >> Operator;
 
-    switch(op)
+    switch(Operator)
     {
         case '+':
             cout << "Enter two operands: ";
             cin >> num1 >> num2;
-            cout << num1+num2;
+            cout << num1 + num2;
             break;
 
         case '-':
             cout << "Enter two operands: ";
             cin >> num1 >> num2;
-            cout << num1-num2;
+            cout << num1 - num2;
             break;
 
         case '*':
             cout << "Enter two operands: ";
             cin >> num1 >> num2;
-            cout << num1*num2;
+            cout << num1 * num2;
             break;
 
         case '/':
             cout << "Enter two operands: ";
             cin >> num1 >> num2;
-            cout << num1/num2;
+            cout << num1 / num2;
             break;
 
         default:
