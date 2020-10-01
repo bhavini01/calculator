@@ -1,4 +1,4 @@
-# include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -12,7 +12,6 @@ int main()
     switch(op)
     {
         case '+':
-           
             cout << "Enter two operands: ";
             cin >> num1 >> num2;
             cout << num1+num2;
