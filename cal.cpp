@@ -1,33 +1,39 @@
-# include <iostream>
+#include <iostream>
+
 using namespace std;
 
 int main()
 {
-    char op;
-    float num1, num2;
-
+    double num1, num2;
+    char Operator;
+    
     cout << "Enter operator either + or - or * or /: ";
-    cin >> op;
+    cin >> Operator;
 
-    cout << "Enter two operands: ";
-    cin >> num1 >> num2;
-
-    switch(op)
+    switch(Operator)
     {
         case '+':
-            cout << num1+num2;
+            cout << "Enter two operands: ";
+            cin >> num1 >> num2;
+            cout << num1 + num2;
             break;
 
         case '-':
-            cout << num1-num2;
+            cout << "Enter two operands: ";
+            cin >> num1 >> num2;
+            cout << num1 - num2;
             break;
 
         case '*':
-            cout << num1*num2;
+            cout << "Enter two operands: ";
+            cin >> num1 >> num2;
+            cout << num1 * num2;
             break;
 
         case '/':
-            cout << num1/num2;
+            cout << "Enter two operands: ";
+            cin >> num1 >> num2;
+            cout << num1 / num2;
             break;
 
         default:
